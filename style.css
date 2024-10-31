@@ -344,7 +344,7 @@ body{
 	bottom: 0;
 	height: 3px;
 	width:0%;
-	background: #1A76D1;
+	background: #6edab7;
 	border-radius: 5px 5px 0 0;
 	opacity:0;
 	visibility:hidden;
@@ -357,9 +357,10 @@ body{
 	visibility:visible;
 	width: 100%;
 }
-.header .nav li.active a{
-	color:#1A76D1;
+.header .nav li.active a {
+    color: #1A76D1;
 }
+
 .header .nav li:hover a:before{
 	opacity:1;
 	width: 100%;
@@ -4070,7 +4071,7 @@ body{
 }
 .footer .single-footer .time-sidual li span{
 	display:inline-block;
-	float:right;
+	float: right;
 }
 .footer .single-footer .day-head .time {
 	font-weight: 400;
@@ -4170,3 +4171,36 @@ body{
 /*=========================
 	End Footer CSS
 ===========================*/
+/* Style the cards */
+.card {
+	margin-bottom: 20px;	
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+	border-radius: 5px;
+	overflow: hidden;
+  }
+  
+  .card-img-top {
+	width: 100%;
+	height: 200px; /* Adjust height as needed */
+	object-fit:contain; /* Ensures image fills container */
+	border-radius: 10%;
+	padding-left: 80px;
+	padding-right: 60px;
+	margin-top: 20px;
+  }
+  
+  .card-body {
+	padding: 20px;
+  }
+  
+  /* Animate the cards on hover */
+  .card:hover {
+	transform: scale(1.02); /* Slightly scale up on hover */
+	transition: transform 0.2s ease-in-out;
+  }
+  .card-body {
+    text-align: center;
+}
+.container{
+	margin-top: 50px;
+}
